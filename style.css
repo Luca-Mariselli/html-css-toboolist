@@ -2,28 +2,34 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: arial;
 }
 
-.bg-white {
-    background-color: white;
+.bg-gray {
+    background-color: lightgray;
 }
 
 
 .container {
-    width: 1200px;
+    width: 1000px;
     background-color: white;
     margin: 0 auto;
     border-radius: 10px;
     padding: 15px 10px 10px 15px;
-    height: 500px;
+    height: 600px;
 }
 
 .margin1 {
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .margin2 {
     margin-top: 30px;
+}
+
+.margin-left {
+    margin-left: 30px;
 }
 
 header {
@@ -56,10 +62,10 @@ main {
 
 #button {
     background-color: white;
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     margin-top: 60px;
-    height: 40px;
+    height: 50px;
     border-radius: 10px;
 }
 
@@ -68,9 +74,10 @@ main {
     background-color: #47adf1;
     color: white;
     border-radius: 5px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px;
     margin-left: 20px;
-    margin-top: 6px;
+    margin-top: 12px;
+    font-size: 12px;
 }
 
 #section {
@@ -78,69 +85,94 @@ main {
     background-color: white;
     color: #ced3d7;
     border-radius: 5px;
-    padding: 5px 5px 5px 5px;
+    padding: 6px;
     margin-left: 5px;
     border: solid #ced3d7;
     border-width: 2px;
+    font-size: 12px;
 }
 
 .editorial {
     background-color: #47adf1;
     color: white;
     border-radius: 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px;
     margin-left: 5px;
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .goals {
     color: white;
     border-radius: 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px;
     margin-left: 5px;
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 10px;
     background-color: #9c72e4;
 }
 
 .recruiting {
     color: white;
     border-radius: 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px;
     margin-left: 5px;
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 10px;
     background-color: #64c0a9;
 }
 
 .mobile {
     color: white;
     border-radius: 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px;
     margin-left: 5px;
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 10px;
     background-color: #f29e33;
 }
 
 .website {
     color: white;
     border-radius: 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px;
     margin-left: 5px;
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 10px;
     background-color: #d863a1;
 }
 
 .sales {
     color: white;
     border-radius: 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px;
     margin-left: 5px;
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 10px;
     background-color: #b0c926;
 
+}
+
+.check {
+    font-size: 10px;
+    color: rgb(7, 190, 7);
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 15px;
+    aspect-ratio: 1 /1;
+}
+
+.cross {
+    font-size: 10px;
+    color: red;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 15px;
+    aspect-ratio: 1 /1;
 }
